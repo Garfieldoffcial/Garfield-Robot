@@ -66,7 +66,7 @@ from Maxrobot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Max Robot ⚡️
+Hey there!👋  My name is Garfield Robot ⚡️
 I can manage your  group with lots of useful features, feel free to add me to your group
 """
 
@@ -92,13 +92,13 @@ BUTTONS = [
    
     [
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/MaxrobotSupport"),
+            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/botcopagroup"),
     ],
    
     [
-        InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/SL_Tech_World"),
+        InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/botcompany1"),
         InlineKeyboardButton(
-            text="Rᴇᴘᴏ 📦", url=f"https://github.com/maxsupun"
+            text="Rᴇᴘᴏ 📦", url=f"https://github.com/Garfieldoffcial"
         ),
     ],
     [
@@ -109,13 +109,13 @@ BUTTONS = [
     ],
   [
         InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
+            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/garfieldrobot?startgroup=true"),
     ], 
 ]
 
-TEXT = """ Hey there! I am Max Robot. A next gen powerful Telegram group manager bot for manage with cool, new, smart features With Advanced AI........... 
+TEXT = """ Hey there! I am ⚡️Garfield Robot⚡️. A next gen powerful Telegram group manager bot for manage with cool, new, smart features With Advanced AI........... 
 Click `Main menu` button for more information.
-Join my [Updates Channel](https://t.me/SL_Tech_World) to get information on all the latest updates.  """
+Join my [Updates Channel](https://t.me/botcompany1) to get information on all the latest updates.  """
 
 MENU = [
     [
@@ -124,11 +124,11 @@ MENU = [
     ],
      [
         InlineKeyboardButton(
-            text="Uᴘᴅᴀᴛᴇs", url ="https://t.me/MaxRobot_updates"),
+            text="Uᴘᴅᴀᴛᴇs", url ="https://t.me/botcompany1"),
     ],
     [
         InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
+            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/garfieldrobot?startgroup=true"),
     ],
 ]
 
@@ -388,15 +388,15 @@ def Maxrobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🐞 Bugs", url="https://t.me/MaxRobotSupport"
+                            text="🐞 Bugs", url="https://t.me/botcopagroup"
                         ),
                         InlineKeyboardButton(
-                            text="🗣 Updates", url="https://t.me/MaxRobot_updates"
+                            text="🗣 Updates", url="https://t.me/botcopagroup"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🤕 Donate", url="http://t.me/Max123Robot?start=/donate"
+                            text="🤕 Donate", url="http://t.me/garfieldrobot?start=/donate"
                         ),
                         InlineKeyboardButton(
                             text="🔎 Inline search", switch_inline_query_current_chat=""
@@ -477,12 +477,12 @@ def Maxrobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Owener channel ", url="https://t.me/SL_Tech_Worldchat"),
-                    InlineKeyboardButton(text="Owner group ", url="https://t.me/SL_Tech_Worldchat"),
+                    InlineKeyboardButton(text="Owener channel ", url="https://t.me/botcopagroup"),
+                    InlineKeyboardButton(text="Owner group ", url="https://t.me/botcopagroup"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/MaxrobotSupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Maxrobot_updates"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/botcopagroup"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/botcopagroup"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
@@ -502,7 +502,7 @@ def Maxrobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Maxrobot", url="https://t.me/SL_Tech_Worldchat"),
+                    InlineKeyboardButton(text="Maxrobot", url="https://t.me/botcopagroup"),
                     InlineKeyboardButton(text="Daisyx bot", url="https://github.com/TeamDaisyX/Daisy-OLD"),
                    
                  ],   
